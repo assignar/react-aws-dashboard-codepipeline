@@ -1,0 +1,45 @@
+{
+  "name": "react-aws-dashboard-codepipeline",
+  "version": "1.0.1",
+  "description": "View AWS CodePipeline resources",
+  "main": "lib/index.js",
+  "repository": "git@github.com:assignar/react-aws-dashboard-codepipeline.git",
+  "author": "c-py <craig@assignar.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./lib && tsc",
+    "test": "jest --passWithNoTests",
+    "lint": "eslint '*/**/*.{ts,tsx}' --quiet --fix",
+    "prepublish": "yarn lint && yarn build && yarn test"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.9",
+    "@types/enzyme": "^3.10.4",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^25.1.0",
+    "@types/lodash": "^4.14.149",
+    "@types/lscache": "^1.3.0",
+    "@types/node": "^13.5.0",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "lodash": "^4.17.15",
+    "lscache": "^1.3.0"
+  }
+}
