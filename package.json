@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rm -rf ./lib && tsc",
+    "postbuild": "cp -r ./src/css ./lib/css",
     "test": "jest --passWithNoTests",
     "lint": "eslint '*/**/*.{ts,tsx}' --quiet --fix",
     "prepublish": "yarn lint && yarn build && yarn test"
@@ -38,6 +39,10 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "bulma": "^0.8.0",
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
     "lscache": "^1.3.0"
