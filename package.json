@@ -1,6 +1,6 @@
 {
   "name": "react-aws-dashboard-codepipeline",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "View AWS CodePipeline resources",
   "main": "lib/index.js",
   "repository": "git@github.com:assignar/react-aws-dashboard-codepipeline.git",
@@ -11,7 +11,7 @@
     "postbuild": "cp -r ./src/css ./lib/css",
     "test": "jest --passWithNoTests",
     "lint": "eslint '*/**/*.{ts,tsx}' --quiet --fix",
-    "prepublish": "yarn lint && yarn build && yarn test"
+    "prepare": "yarn lint && yarn build && yarn test"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.9",
