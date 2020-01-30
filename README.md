@@ -52,3 +52,7 @@ yarn start
 ```
 
 Please note, due to the sensitive nature of the AWS credentials, this example is only suitable to run locally and should never be deployed to a remote location. [Consider using AWS Cognito or Federated Identities](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/loading-browser-credentials-federated-id.html) if you wish to deploy this solution to a website.
+
+## Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/assignar/react-aws-dashboard-codepipeline/master/images/screenshot.png?token=AJ2OJHTP3N7YSQ5HCXBC5BS6HODUY)
