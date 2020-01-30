@@ -14,10 +14,6 @@ code {
     monospace;
 }
 
-.title {
-  display: inline;
-}
-
 .pipeline {
   background: #fff;
   border: 1px solid #999;

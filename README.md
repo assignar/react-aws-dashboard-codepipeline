@@ -51,4 +51,4 @@ export default App;
 yarn start
 ```
 
-Please note, due to the sensitive nature of the AWS credentials, this example is only suitable to run locally and should never be deployed to a remote location. [Consider using AWS Cognito or Federated Identities](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/loading-browser-credentials-federated-id.html) if you wish to deploy this solution to a website
+Please note, due to the sensitive nature of the AWS credentials, this example is only suitable to run locally and should never be deployed to a remote location. [Consider using AWS Cognito or Federated Identities](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/loading-browser-credentials-federated-id.html) if you wish to deploy this solution to a website.
