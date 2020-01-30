@@ -1,6 +1,8 @@
 # react-aws-dashboard-codepipeline
 
-A react component which provides an graphical interface to adminster AWS CodePipeline. This is completely client side and requires no backend to function.
+A react component which provides an graphical interface to adminster AWS CodePipeline. This is completely client side and requires no backend code to function.
+
+This component can be used standalone, or in combination with [react-aws-dashboard](https://github.com/assignar/react-aws-dashboard) if you want to be able to switch between multiple AWS environments.
 
 ## Installation
 
