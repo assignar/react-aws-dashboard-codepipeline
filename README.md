@@ -1,5 +1,24 @@
 # react-aws-dashboard-codepipeline
 
+A react component which provides an graphical interface to adminster AWS CodePipeline. This no backend to function.
+
+## Installation
+
+```
+yarn add react-aws-dashboard-codepipeline
+```
+
+## Features
+
+- Restart Pipelines
+- Restart Stages
+- Get CodeBuild Logs
+- Show Git source provider commit details
+- Show Deployment details
+- Search Pipelines
+
+
+
 ## Example (with create-react-app)
 
 1. Create new react app and add react-aws-dashboard-codepipeline
@@ -21,7 +40,7 @@ const App: React.FC = () => {
   config.secretAccessKey = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
   config.region = "ap-southeast-2";
 
-  return <Environment name="Test" config={config}></Environment>;
+  return <Environment name="Test" config={config} />;
 };
 
 export default App;
@@ -32,4 +51,4 @@ export default App;
 yarn start
 ```
 
-Please note, due to the sensitive nature of the AWS credentials, this example is only suitable to run locally and should never be deployed to a remote localtion.
+Please note, due to the sensitive nature of the AWS credentials, this example is only suitable to run locally and should never be deployed to a remote location. [Consider using AWS Cognito or Federated Identities](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/loading-browser-credentials-federated-id.html) if you wish to deploy this solution to a website
