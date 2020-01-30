@@ -1,13 +1,14 @@
 {
   "name": "react-aws-dashboard-codepipeline",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "View AWS CodePipeline resources",
   "repository": "git@github.com:assignar/react-aws-dashboard-codepipeline.git",
   "author": "c-py <craig@assignar.com>",
   "license": "MIT",
   "main": "lib/index.js",
   "files": [
-    "lib"
+    "lib",
+    "index.d.ts"
   ],
   "scripts": {
     "build": "rm -rf ./lib && tsc",
