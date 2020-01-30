@@ -14,6 +14,9 @@ async function getPipelines(
   if (result.success) {
     return result.success.response as PipelineModel[];
   }
+  if (result.fail) {
+    console.error(result.fail.message);
+  }
   return undefined;
 }
 
