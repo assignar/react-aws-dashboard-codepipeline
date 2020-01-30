@@ -1,6 +1,6 @@
 {
   "name": "react-aws-dashboard-codepipeline",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "View AWS CodePipeline resources",
   "repository": "git@github.com:assignar/react-aws-dashboard-codepipeline.git",
   "author": "c-py <craig@assignar.com>",
